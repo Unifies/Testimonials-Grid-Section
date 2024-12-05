@@ -39,6 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--Light-grayish-blue);
+  min-height: 100vh;
 }
 
 .gridContainer {
@@ -51,7 +52,7 @@ body {
   margin: 1rem auto;
   padding: 0 1.5rem 0 2rem;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px;
+  box-shadow: 3rem 3rem 3rem -1.8rem hsla(0, 0%, 0%, 0.1);
 }
 
 .testimonialProfile {
@@ -61,9 +62,13 @@ body {
 }
 
 .testimonialProfile img {
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
+}
+
+.testimonialName {
+  margin: auto 0;
 }
 
 .testimonialName .name {
